@@ -1,6 +1,6 @@
 {
   "name": "@jpereraaracil/di4ts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "module": "lib/index.js",
   "main": "lib/index.js",
