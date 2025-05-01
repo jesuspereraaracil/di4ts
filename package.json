@@ -27,6 +27,10 @@
     "typescript",
     "dependency injection"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesuspereraaracil/di4ts.git"
+  },
   "author": "jesuspereraaracil",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
