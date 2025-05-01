@@ -1,0 +1,36 @@
+{
+  "name": "@jpereraaracil/di4ts",
+  "version": "0.0.1",
+  "type": "module",
+  "module": "lib/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "Dependency Injection implementation for TypeScript",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build:tsc": "tsc --emitDeclarationOnly",
+    "build:bun": "bun build src/index.ts --outdir ./lib",
+    "prebuild": "bun run clean",
+    "build": "bun run build:bun && bun run build:tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "typescript",
+    "dependency injection"
+  ],
+  "author": "jesuspereraaracil",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jesuspereraaracil/di4ts/issues"
+  },
+  "homepage": "https://github.com/jesuspereraaracil/di4ts#readme"
+}
